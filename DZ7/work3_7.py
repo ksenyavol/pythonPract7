@@ -27,7 +27,6 @@ class Worker:
         self.surname = surname
         self.position = position
         self._income = {"wage": wage, "bonus": bonus}
-
 class Position(Worker):
     def __str__(self, name, surname, position, wage, bonus):
         return "STR"

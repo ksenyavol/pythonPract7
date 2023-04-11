@@ -23,6 +23,5 @@ class MassCount(Road):
         super().__init__(_Road_length, _Road_width)
         self.volume = volume
 
-
 r = MassCount(25, 10000, 125)
 print(r.mass())

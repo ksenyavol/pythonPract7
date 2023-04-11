@@ -17,6 +17,7 @@ from time import sleep
 class TrafficLight:
     def __init__(self, color):
         self.__color = color
+
     def running(self):
         for key, value in self.__color.items():
             sleep(value)
